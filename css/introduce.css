@@ -1,0 +1,48 @@
+.main-content {
+    padding: 20px 100px;
+}
+
+.content {
+    margin: 50px 0;
+}
+.content h2.title-introduce, .content h4.title-introduce {
+    margin: 20px 0;
+}
+.content p.text {
+    margin: 10px 0 10px 30px;
+}
+
+/* contact */
+.content form {
+    width: 50%;
+    margin: 0 auto
+}
+.content .text {
+    margin: 30px 0 50px 140px;
+}
+.content form > div {
+    display: flex
+}
+.content form > div .control {
+    width: 50%;
+    margin-right: 10px;
+}
+.content form .control, .content form .text-content {
+    display: flex;
+    flex-direction: column;
+}
+.content form > div .control:last-child {
+    margin-right: 0;
+}
+.content form .text-content {
+    padding: 0;
+    margin: 10px 0;
+    width: 100%
+}
+.content form input.submit {
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: white;
+    background: linear-gradient(45deg, #673AB7, #9C27B0);
+    cursor: pointer;
+}
